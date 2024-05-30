@@ -1,5 +1,11 @@
 import tkinter as tk
 
+def suma(num1, num2):
+    return num1 + num2
+
+def resta(num1, num2):
+    return num1 - num2
+
 def main():
     root = tk.Tk()
     root.iconbitmap("icono/lapiz.ico")
